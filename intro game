@@ -1,70 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Page for games for change </title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #4151e2;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-        section {
-            padding: 20px;
-        }
-        .image-box {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-        .image-box img {
-            width: 30%;
-            border: 2px solid #ccc;
-            border-radius: 8px;
-            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-        }
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #d2eeff;
+      }
+      header {
+        background-color: #7986fc;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+      }
+      section {
+        padding: 20px;
+      }
+      .image-box {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .image-box img {
+        width: 30%;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+      }
+      footer {
+        text-align: center;
+        background-color: rgb(0, 36, 103);
+        color: white;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
 
     <header>
-        <h1>Welcome to My Web Page and games </h1>
+      <h1>Welcome to My Web Page and games </h1>
     </header>
 
     <section>
-        <h2>My games purpose and resonas</h2>
-        <p>This is a simple webpage where you can see some images and read a bit about them. Below are three pictures displayed in a box format.</p>
+      <h2>My games purpose and resonas</h2>
+      <p>I wnat to bring aweranes to the slow death of the polar bears and how we need to save them and help keep them alive while presverving their homes </p>
 
-        <h3>WHY?</h3>
-        <p>In this game you will play as a hungry polar bear who's  hunting for some food to have to survive over the Arctic as you look for food a human being is hunting you down to kill you and skin you for your fur while ignoring the fact that you had a family and are trying to feed them can you survive to get food and nor get skinned  alive .
+      <h3> Pitch </h3>
+      <p>In this game you will play as a hungry polar bear who's  hunting for some food to have to survive over the Arctic as you look for food a human being is hunting you down to kill you and skin you for your fur while ignoring the fact that you had a family and are trying to feed them can you survive to get food and nor get skinned  alive .
+      </p>
+      <h4> Tagline </h4>
+      <p> A  game where you're chased down by something, a game where you have to find gold, a game where you find food, a game where you have to survive for as long as you can go. 
+      </p>
+      
+      <h3> Info  </h3>
+      <p>
+        Lore: You're playing as a polar bear and a ball in these games where you the player used to be a human and now you are an animal and you have been rencanted as a ball and a polar bear to see the world in the eyes of the animals that you had killed . 
+      </p>
+      <p>
+        The colors are in bules and greens with brown for my first game beacuse it's in a forest where you are looking for food and the second is blue ,white and gray to resemble the coldenss or for the arctic . 
 
-        <div class="image-box">
-            <img src="https://via.placeholder.com/300x200" alt="Image 1">
-            <img src="https://via.placeholder.com/300x200" alt="Image 2">
-            <img src="https://via.placeholder.com/300x200" alt="Image 3">
-        </div>
+      </p>
+      <p>
+        To move you have to use W,A,S,D to move around and manouver around the map to win. You have to rub into the coins and food to get the points and move around to win the game .
+
+      </p>
+      <meta charset="UTF-8">
+      <title>Video Example</title>
+  
+
+      <h1>My Video</h1>
+
+      <video width="640" height="360" controls>
+        <source src="Videogames.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="image-box">
+        <img src="Polarf.png"Image 1">
+        <img src="Polarw.png" alt="Image 2">
+        <img src="Polart.png" alt="Image 3">
+      </div>
     </section>
+    <button type="button">Click Me!</button>
 
     <footer>
-        <p>&copy; 2025 My Website</p>
+      <p>&copy; 2025 My Website for peacemakers </p>
     </footer>
 
-</body>
+    
+  </body>
 </html>
